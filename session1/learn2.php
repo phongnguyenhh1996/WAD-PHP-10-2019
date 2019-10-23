@@ -123,8 +123,8 @@
   echo "<h2>BT12 (Chưa xong, ra tào lao)</h2>";
   $n = 5;
   $middle = round($n / 2, 0, PHP_ROUND_HALF_DOWN) + 1;
-  for ($i=1; $i <= $n; $i++) { 
-    for ($j=1; $j <= $n; $j++) { 
+  for ($i=1; $i <= $n; $i++) {
+    for ($j=1; $j <= $n; $j++) {
       if ($i == 1 && $j == $middle) {
         echo "*";
       } else if ($j >= $middle - $i && $j <= $middle + $i) {
